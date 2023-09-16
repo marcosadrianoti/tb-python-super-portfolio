@@ -21,6 +21,18 @@
           <p>Key Skill: {{ project.key_skill }}</p>
       {% endfor %}
   </ul>
-  
+  <h2>Certificados</h2>
+    <ul>
+      {% for certificate in profile.certificates.all %}
+        <li>{{ certificate.name }} ({{ certificate.certifying_institution.name }})</li>
+      {% endfor %}
+    </ul>
+
+    <h2>Instituições Certificadoras</h2>
+    <ul>
+      {% for institution in profile.certifying_institutions.all %}
+        <li>{{ institution.name }} ({{ institution.url }})</li>
+      {% endfor %}
+    </ul>
 </body>
 </html>
