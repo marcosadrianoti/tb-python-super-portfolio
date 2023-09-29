@@ -4,11 +4,10 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 <details>
 <summary><strong>Objetivos do projeto:</strong></summary>
  
-  * Desenvolver uma aplicação que armazena notícias que podem ser categorizadas por um usuário cadastrado.
+  * Desenvolver uma API para gerenciamento de dados de perfil e projetos em um super portfólio.
   * Verificar se sou capaz de:
-    * Escrever aplicações usando Django e Django Rest Framework.
-    * Desenvolver uma aplicação que usa a arquitetura Model-View-Template.
-    * Trabalhar com banco de dados MYSQL.
+    * Utilizar o Django REST Framework para criar endpoints com entidades aninhadas.
+    * Utilizar o módulo Simple JWT para implementar autenticação no Django REST Framework.
 </details>
 <details>
 <summary><strong> Requisitos do projeto:</strong></summary>
