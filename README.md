@@ -12,7 +12,7 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 <details>
 <summary><strong> Requisitos do projeto:</strong></summary>
 
-  * Implemente a autenticação com simple JWT.
+  * Implementar a autenticação com simple JWT.
   * Criar um C.R.U.D para `Profile`.
   * Criar um C.R.U.D para `Project`.
   * Customizar as ViewSets para `Profile`.
