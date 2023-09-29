@@ -58,8 +58,8 @@ python3 -m pip install -r dev-requirements.txt
 
 Para rodar o MySQL via Docker execute os seguintes comandos na raiz do projeto:
 ```bash
-docker build -t spotnews-db .
-docker run -d -p 3306:3306 --name=spotnews-mysql-container -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=spotnews_database spotnews-db
+docker build -t super-portfolio-db .
+docker run -d -p 3306:3306 --name=super-portfolio-mysql-container -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=super_portfolio_database super-portfolio-db
 ```
 
 Rode a aplicação e acesse [http://127.0.0.1:8000/](http://127.0.0.1:8000/):
