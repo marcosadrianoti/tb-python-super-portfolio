@@ -12,17 +12,12 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 <details>
 <summary><strong> Requisitos do projeto:</strong></summary>
 
-  * Criar a migrate e o model `Categories`.
-  * Criar a migrate e o model `Users`.
-  * Criar a migrate e o model `News`.
-  * Criar a página Inicial.
-  * Criar a página de detalhes de uma Notícia.
-  * Criar a página de Formulário de uma nova Categoria.
-  * Criar a página de Formulário de uma nova Notícia.
-  * Criar a rota `/api/categories/` com o DRF.
-  * Criar a rota `/api/users/` com o DRF.
-  * Requisito Bônus:
-    * Criar a rota `/api/news/` com o DRF.
+  * Implemente a autenticação com simple JWT.
+  * Criar um C.R.U.D para `Profile`.
+  * Criar um C.R.U.D para `Project`.
+  * Customizar as ViewSets para `Profile`.
+  * Criar um C.R.U.D inline para `Certificate` e `CertifyingInstitution`.
+  * Exibir uma página de perfil completa.
 </details>
   
 ## Rodando o projeto localmente
